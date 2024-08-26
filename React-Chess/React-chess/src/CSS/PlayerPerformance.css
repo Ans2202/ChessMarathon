@@ -1,0 +1,43 @@
+div {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+p.loading {
+    color: #17a2b8; 
+    font-size: 20px;
+}
+
+p.error {
+    color: #c61878; 
+    font-size: 20px;
+}
