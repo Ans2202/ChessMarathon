@@ -1,0 +1,6 @@
+@ChessMarathon_HostAddress = http://localhost:5087
+
+GET {{ChessMarathon_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
